@@ -14,34 +14,6 @@ src/test/java/
 ├── utilities/                 # Contains utility classes
     └── ApiUtils.java
 
-    ├───.idea
-├───reports
-│   └───cucumber-reports
-├───src
-│   ├───main
-│   │   ├───java
-│   │   │   └───apitestsample
-│   │   └───resources
-│   └───test
-│       └───java
-│           ├───features
-│           ├───runners
-│           ├───services
-│           ├───stepdefinitions
-│           └───Utilities
-└───target
-    ├───classes
-    ├───cucumber-reports
-    ├───generated-sources
-    │   └───annotations
-    ├───generated-test-sources
-    │   └───test-annotations
-    └───test-classes
-        ├───runners
-        ├───services
-        ├───stepdefinitions
-        └───Utilities
-
 
 ## 3. Prerequisites
 - Java Development Kit (JDK): Version 11 or higher.
