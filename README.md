@@ -50,30 +50,34 @@ src/test/java/
 - Right-click and select Run or Debug.
 
 ## 6. Test Reports
-   After test execution, the following reports will be generated:
-   --> Cucumber HTML Report: Located at target/cucumber-reports/cucumber.html.
-   --> Cucumber JSON Report: Located at target/cucumber-reports/cucumber.json.
-   To view the HTML report, open the cucumber.html file in a web browser.
+ After test execution, the following reports will be generated:
+-     Cucumber HTML Report: Located at target/cucumber-reports/cucumber.html.
+-     Cucumber JSON Report: Located at target/cucumber-reports/cucumber.json.
+To view the HTML report, open the cucumber.html file in a web browser.
 
 ## 7. Best Practices
-1. Modularity
--Service Classes: Encapsulate API logic in service classes (e.g., CategoryService).
--Utilities: Centralize reusable methods (e.g., ApiUtils).
+##### 1. Modularity
+ - Service Classes: Encapsulate API logic in service classes (e.g., CategoryService).
+ - Utilities: Centralize reusable methods (e.g., ApiUtils).
 
-2. Request and Response Specifications
--Use Request Specification Builder to define common request configurations (e.g., base URI, headers).
--Use Response Specification Builder to define common response validations (e.g., status code, content type).
+#### 2. Request and Response Specifications
+- Use Request Specification Builder to define common request configurations (e.g., base URI, headers).
+- Use Response Specification Builder to define common response validations (e.g., status code, content type).
 
-3. BDD with Cucumber
--Write feature files in Gherkin syntax for better readability and collaboration.
--Step Definitions: Keep step definitions clean and focused on test steps.
--Use tags (e.g., @Positive, @Negative) to categorize and filter test scenarios.
+#### 3. BDD with Cucumber
+- Write feature files in Gherkin syntax for better readability and collaboration.
+- Step Definitions: Keep step definitions clean and focused on test steps.
+- Use tags (e.g., @Positive, @Negative) to categorize and filter test scenarios.
 
-4. Reporting
--Use Cucumber reporting plugins to generate detailed HTML and JSON reports.
+#### 4. Reporting
+- Use Cucumber reporting plugins to generate detailed HTML and JSON reports.
 
-5. Parallel Execution
--Leverage TestNG's parallel execution capabilities to reduce test execution time.
+#### 5. Parallel Execution
+- Leverage TestNG's parallel execution capabilities to reduce test execution time.
+
+#### 6. Error Handling
+- Validate error responses for negative test scenarios (e.g., invalid Category ID, invalid query parameter).
+
 
 6. Error Handling
 -Validate error responses for negative test scenarios (e.g., invalid Category ID, invalid query parameter).
