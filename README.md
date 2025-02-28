@@ -2,6 +2,7 @@
 This project is a Service Object Model (SOM) based API test automation framework built using Cucumber, TestNG, RestAssured, Request Specification Builder, and Response Specification Builder.
 
 2. Project Structure
+
 src/test/java/
 ├── features/                  # Contains Cucumber feature files
 │   └── category_details.feature
