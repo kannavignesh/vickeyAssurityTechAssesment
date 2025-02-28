@@ -2,19 +2,17 @@
 This project is a Service Object Model (SOM) based API test automation framework built using Cucumber, TestNG, RestAssured, Request Specification Builder, and Response 
 ## 2. Project Structure
 
-└── src/
-    └── test/
-        └── java/
-            ├── Utilities/
-            │   └── ApiUtils.java
-            ├── stepdefinitions/
-            │   └── CategoryDetailsSteps.java
-            ├── services/
-            │   └── CategoryService.java
-            ├── runners/
-            │   └── TestRunner.java
-            └── features/
-                └── CategortDetails.feature
+src/test/java/
+├── features/                  # Contains Cucumber feature files
+│   └── category_details.feature
+├── stepdefinitions/           # Contains step definitions for feature files
+│   └── CategoryDetailsSteps.java
+├── services/                  # Contains service classes for API logic
+│   └── CategoryService.java
+├── runners/                   # Contains TestNG runner class
+│   └── TestRunner.java
+├── utilities/                 # Contains utility classes
+    └── ApiUtils.java
 
 ## 3. Prerequisites
 - Java Development Kit (JDK): Version 11 or higher.
